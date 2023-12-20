@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [5.1.1] - 2023-12-20
 
+## [5.1.1] - 2023-12-20
+
 ## [5.1.0] - 2022-06-07
 ### Changed
 - Fixed height in `list-context.image-list#demo` example.
