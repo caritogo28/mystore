@@ -6,6 +6,7 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
+      "list-context.product-list#dcarruselpdp",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
@@ -180,5 +181,36 @@
         "Pinterest": true
       }
     }
-  }
+  },
+
+  //Carrusel de productos
+  "product-summary.shelf#carruselpdp": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#dcarruselpdp": {
+    "blocks": ["product-summary.shelf#carruselpdp"],
+    "children": ["slider-layout#carruselpdp"]
+  },
+  
+   "slider-layout#carruselpdp": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+     }
+    }
+  
+  
 }
