@@ -10,5 +10,8 @@
   },
   "store.custom#ps-call": {
     "path": "/personal-shopper"
+  },
+  "store.quickorder": {
+    "path": "/quickorder"
   }
 }
